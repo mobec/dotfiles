@@ -3,7 +3,7 @@ Dotfiles
 
 ## Install
 1. Install `git` and `zsh`
-2. `git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME clone --bare https://github.com/mobec/dotfiles $HOME/.dotfiles`
+2. `git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME clone --bare --recurse-submodules https://github.com/mobec/dotfiles $HOME/.dotfiles`
 3. `git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME checkout`
 4. `chsh -s $(which zsh)`
 
