@@ -105,3 +105,5 @@ export LANG=en_US.UTF-8
 
 export GOPATH=$HOME/Developer/go
 export PATH=$PATH:$GOPATH/bin
+
+export PATH=$PATH:$HOME/.local/bin
