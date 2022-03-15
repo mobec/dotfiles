@@ -7,7 +7,7 @@ Dotfiles
 3. `git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME checkout`
 4. `git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME submodule update --init --recursive`
 5. `chsh -s $(which zsh)`
-6. `vim` and press enter to open vim anyways, then run `:PluginInstall` in vim
+6. `vim` and press enter to open vim anyway, then run `:PluginInstall` in vim
 
 ## Update
 You can use the `dotfiles` alias to use git with the workspace pointing to your home directory.
